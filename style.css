@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    max-width:0;
+    
+}
+
+body{
+    padding: 10px 450px 10px 450px;
+    background-color:#eee;
+    color: #4aaaa5;
+}
+
+.menu-area  li a{
+        text-decoration: none;
+
+}
+
+.menu-area li{
+    list-style: none;
+}
+
+.navbar {
+    margin-top: 0;
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    
+    background-color: #cccccc;
+    text-decoration-color: #4aaaa5;
+    max-width:100%;
+}
+.logo{
+    width:30%;
+    float:left;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color:white;
+    padding:10px;
+}
+
+
+.navbar{
+    max-width: 100%;
+    margin: 0 auto;
+    max-width:100% ;
+}
+.image-float{
+    float: left;
+    border: 10px;
+    margin:15px 20px 15px 0px;
+     
+     
+}
+
+header{
+    background-color: #4aaaa5;
+    color:white;
+    padding: 10px;
+    float: left;
+    display: inline-block;
+
+}
+.top-main{
+    color:  #777777;
+    border: 100px;
+    padding: 100px;
+    background-color:white;
+
+}
+
+.small-header{
+    color: #4aaaa5;
+    text-align: left;
+    background-color: white;
+    max-width: 900px;
+    border: 100px;
+    margin: 10px 0px 5px 0px;
+}
+
+#main {
+    margin: 0px;
+    background-color: white;
+    color: #777777;
+    float:left;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pimages{
+z-index: 1;
+position: absolute;    
+padding: 20px;
+width: 2%;
+float: right;
+
+
+}
+
+ul{
+    clear: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: auto;
+    background-color: white;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    float: left; 
+    line-height: 100px;
+}
+
+ul li a {
+    clear: left;
+    dispaly: block;
+    text-decoration: none;
+    color: #777777;
+    
+    font-size: 14px;
+    font-family: arial;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+.nav{
+    
+    width: 49%;
+    text-align: right;
+    color: #b1adb3;
+    font-weight: normal;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.nav ul li a{
+    color: #b1adb3;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    transition: color .4s; 
+}
+
+@media (max-width:980px){
+
+}
+@media (max-width:768px){
+
+}
+@media (min-width:640px){
+
+}
